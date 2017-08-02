@@ -3,7 +3,7 @@ __copyright__ = 'Copyright (c) 2009, Google Inc.'
 __license__ = 'Apache License, Version 2.0'
 
 import sl4a
-asd
+
 droid = sl4a.Android()
 droid.ttsSpeak('Olá. Qual o seu nome?')
 message = droid.dialogGetInput('Calculador de IMC', 'Qual o seu nome?').result
