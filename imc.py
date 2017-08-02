@@ -10,7 +10,6 @@ message = droid.dialogGetInput('Calculador de IMC', 'Qual o seu nome?').result
 droid.ttsSpeak(message)
 droid.ttsSpeak('Bem vindo ao Calculador de IMC em Python!')
 
-
 print('=========================')
 print('CALCULO DE IMC EM PYTHON')
 droid.ttsSpeak('Por favor, digite seu peso')
