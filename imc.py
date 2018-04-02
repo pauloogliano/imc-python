@@ -8,10 +8,10 @@ droid = sl4a.Android()
 droid.ttsSpeak('Olá. Qual o seu nome?')
 message = droid.dialogGetInput('Calculador de IMC', 'Qual o seu nome?').result
 droid.ttsSpeak(message)
-droid.ttsSpeak('Bem vindo ao Calculador de IMC em Python!')
+droid.ttsSpeak('Bem vindo ao Calculador de IMC em Python para Android!')
 
 print('=========================')
-print('CALCULO DE IMC EM PYTHON')
+print('CALCULO DE IMC EM PYTHON PARA ANDROID')
 droid.ttsSpeak('Por favor, digite seu peso')
 print('=========================')
 peso = float(input('Digite seu peso: '))
@@ -48,5 +48,5 @@ elif imc > 35 and imc <= 40:
    droid.ttsSpeak('Obesidade grau 2. Grave!')
    print('Obesidade grau II (grave)!')
 else:
-   droid.ttsSpeak('Obesidade grau 3. Mórbida!')
-   print('Obesidade grau III (mórbida)!')
+   droid.ttsSpeak('Obesidade grau 3. Morbida!')
+   print('Obesidade grau III (morbida)!')
